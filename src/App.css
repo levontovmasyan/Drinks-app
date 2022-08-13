@@ -1,0 +1,116 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+.container {
+  background-color: #f7f7f7;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  font-size: 16px;
+
+}
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 400px;
+}
+
+.btn {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+
+}
+
+.drinks-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.drink-image {
+  width: 100%;
+}
+
+.drink-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.type {
+  color: #a1a1a1;
+}
+
+a {
+  background-color: #DFFF00;
+  color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0  .5rem;
+}
